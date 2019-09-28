@@ -1,7 +1,7 @@
 require 'pry'
 
 class Song
-  include Memo
+  include Memorable
   attr_accessor :name
   attr_reader :artist
 
